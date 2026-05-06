@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  background: linear-gradient(
+    135deg,
+    #3b82f6 10%,
+    #8494ff 15%,
+    #c9beff 75%,
+    #ffdbfd 100%
+  );
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  background: linear-gradient(95deg, #3b82f6, #7a1ecb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For Firefox */
+  background-clip: text;
+  color: transparent;
+}
+
+h3 {
+  font-size: 1.3rem;
+  background: linear-gradient(95deg, #3b82f6, #7a1ecb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For Firefox */
+  background-clip: text;
+  color: transparent;
+  margin-bottom: 10px;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #7a1ecb;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  height: fit-content;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #7a1ecb;
+  box-shadow: 0 0 5px rgba(122, 30, 203, 0.5);
+}
+
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+input:hover {
+  border-color: #7a1ecb;
+  box-shadow: 0 0 5px rgba(122, 30, 203, 0.3);
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+}
+
+label {
+  margin-bottom: 5px;
+  padding-top: 1.2rem;
+  color: #555;
+}
+
+label:hover {
+  color: #7a1ecb;
+  transition: 0.3s;
+  transform: translateY(-2px);
+}
+
+label:active {
+  color: #7a1ecb;
+  transition: 0.3s;
+  transform: translateY(0);
+}
+
+#btn {
+  margin-top: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  transition: 0.3s;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: 2px solid #7a1ecb;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Make the button text match the H1 gradient without changing the button’s background */
+  color: transparent;
+  background-image:
+    linear-gradient(95deg, #f5f6f8, #d1b2ed),
+    linear-gradient(135deg, #6367ff, #8494ff);
+  -webkit-background-clip: text, border-box;
+  background-clip: text, border-box;
+  -webkit-text-fill-color: transparent;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(99, 103, 255, 0.4);
+}
+
+#btn:hover {
+  /* background:#3b82f6; */
+  transition: 0.3s;
+
+  /* Keep the text gradient effect while updating the button background */
+  color: transparent;
+  background-image:
+    linear-gradient(95deg, #3a77e2, #650eb2),
+    linear-gradient(135deg, #8494ff, #c9beff);
+  -webkit-background-clip: text, border-box;
+  background-clip: text, border-box;
+  -webkit-text-fill-color: transparent;
+
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(99, 103, 255, 0.6);
+}
+
+/* css for the chat interface */
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 25%;
+  background: #6367ff;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.search {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.chat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.chat:hover {
+  background: #8494ff;
+}
+
+.chat img {
+  border-radius: 50%;
+}
+
+/* Chat Area */
+
+.chat-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #c9beff;
+}
+
+/* Header */
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #8494ff;
+  color: white;
+}
+
+.chat-header img {
+  border-radius: 50%;
+  height: 100%;
+  width: 5%;
+}
+
+/* Messages */
+
+.messages {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msg {
+  padding: 5px 15px;
+  max-width: 250px;
+  border-radius: 10px;
+}
+
+.other {
+  background: white;
+  color: #8494ff ;
+}
+
+.me {
+  background: #6367ff;
+  color: white;
+  align-self: flex-end;
+}
+
+/* Input */
+
+.input-area {
+  display: flex;
+  padding: 10px;
+  background: #8494ff;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #7a1ecb;
+  border-radius: 10px;
+}
+
+.input-area button {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  transition: 0.3s;
+  padding: 10px 30px;
+  border: 2px solid #7a1ecb;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* Make the button text match the H1 gradient without changing the button’s background */
+  color: transparent;
+  background-image:
+    linear-gradient(95deg, #f5f6f8, #d1b2ed),
+    linear-gradient(135deg, #6367ff, #8494ff);
+  -webkit-background-clip: text, border-box;
+  background-clip: text, border-box;
+  -webkit-text-fill-color: transparent;
+
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(99, 103, 255, 0.4);
+}
+
+.input-area button:hover {
+  /* background: #c9beff;
+  color: black; */
+
+
+   /* background:#3b82f6; */
+  transition: 0.3s;
+
+  /* Keep the text gradient effect while updating the button background */
+  color: transparent;
+  background-image:
+    linear-gradient(95deg, #3a77e2, #650eb2),
+    linear-gradient(135deg, #8494ff, #c9beff);
+  -webkit-background-clip: text, border-box;
+  background-clip: text, border-box;
+  -webkit-text-fill-color: transparent;
+
+  transform: translateX(3px);
+  box-shadow: 0 8px 20px rgba(99, 103, 255, 0.6);
+}

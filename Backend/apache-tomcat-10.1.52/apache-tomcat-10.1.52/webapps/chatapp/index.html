@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talksy-App | Login</title>
+    <link rel="shortcut icon" href="Assets/favicon_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Login Page</h1>
+    <div>
+        <form action="login" method="post" id="loginForm" autocomplete="off" onsubmit="return validatePhone()">
+            <div class="form-header">
+                <h3>Please Fill Your Details </h3>
+            </div>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" required placeholder="Enter User name">
+            <div id="userError" class="error"></div>
+
+            <label for="phone">Mobile :</label>
+            <input type="text" id="phone" name="phone"  required placeholder="Enter Number">
+            <div id="phoneError" class="error"></div>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" required placeholder="Enter Password">
+            <div id="passError" class="error"></div>
+
+            <button type="submit" id="btn">Login</button>
+        </form>
+        <button type="submit" id="btn_login"><a href="registration.html">Don't have an account? Register</a></button>
+    </div>
+
+     <script src="script.js"></script>
+</body>
+</html>

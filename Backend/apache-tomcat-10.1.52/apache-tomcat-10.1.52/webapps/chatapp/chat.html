@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talksy-App | Chat your msg</title>
+
+  <link rel="shortcut icon" href="Assets/favicon_icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="chatContainer" class="container">
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <h2>Chats</h2>
+
+      <input id="searchInput" type="text" placeholder="Search chat..." class="search" />
+
+      <div class="chat-list" id="userList"></div>
+    </div>
+
+    <!-- Chat Section -->
+    <div class="chat-area">
+
+      <div class="chat-header">
+        <img src="" alt="person" id="userAvatar" />
+        <h3 id="usernameDisplay">Name</h3>
+      </div>
+
+      <!-- CHAT MESSAGES -->
+      <div class="messages" id="messages"></div>
+
+      <!-- INPUT AREA -->
+      <div class="input-area">
+        <input type="text" id="messageInput" placeholder="Type message..." />
+        <button type="button" id="sendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

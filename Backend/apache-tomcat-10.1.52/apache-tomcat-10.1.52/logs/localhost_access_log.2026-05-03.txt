@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [03/May/2026:22:18:41 +0530] "GET /chatapp/script.js HTTP/1.1" 200 7123
+0:0:0:0:0:0:0:1 - - [03/May/2026:22:18:41 +0530] "GET /chatapp/getUser HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [03/May/2026:22:18:41 +0530] "GET /chatapp/Assets/favicon_icon.png HTTP/1.1" 200 54986
+0:0:0:0:0:0:0:1 - - [03/May/2026:22:18:49 +0530] "GET /chatapp/getUser HTTP/1.1" 200 13

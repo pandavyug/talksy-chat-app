@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talksy-App | registration</title>
+    <link rel="shortcut icon" href="Assets/favicon_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Registration Page</h1>
+    <div>
+        <form action="RegisterServlet" method="post" id="registerForm" autocomplete="off" onsubmit="return validatePhone() && checkPassword()">
+            <div class="form-header">
+                <h3>Please Fill Your Details </h3>
+            </div>
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" required placeholder="Enter User name">
+            <div id="userError" class="error"></div>
+
+            <label for="phone">Mobile :</label>
+            <input type="text" id="phone" name="phone"  required placeholder="Enter Number">
+            <div id="regphoneError" class="error"></div>
+
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" required placeholder="Set Password">
+            <div id="passError" class="error"></div>
+            
+            <label for="confirmPassword">Confirm Password :</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password">
+            <div id="confirmPassError" class="error"></div>
+
+            <button type="submit" id="btn">Register</button>
+            
+        </form>
+        <button type="submit" id="btn_login"><a href="index.html">Already have an account? Login</a></button>
+    </div>
+
+     <script src="script.js"></script>
+</body>
+</html>

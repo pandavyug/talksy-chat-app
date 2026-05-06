@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:17:24 +0530] "GET /chatapp/index.html HTTP/1.1" 200 1488
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:17:24 +0530] "GET /chatapp/script.js HTTP/1.1" 200 7123
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:17:24 +0530] "GET /chatapp/style.css HTTP/1.1" 200 10402
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:17:24 +0530] "GET /chatapp/getUser HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:17:24 +0530] "GET /chatapp/Assets/favicon_icon.png HTTP/1.1" 200 54986
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:36:53 +0530] "POST /chatapp/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:36:53 +0530] "POST /chatapp/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:36:53 +0530] "GET /chatapp/index.html?error=user HTTP/1.1" 200 1488
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:36:53 +0530] "GET /chatapp/getUser HTTP/1.1" 200 13
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:37:21 +0530] "POST /chatapp/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:37:21 +0530] "GET /chatapp/index.html?error=user HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Apr/2026:18:37:21 +0530] "GET /chatapp/getUser HTTP/1.1" 200 13

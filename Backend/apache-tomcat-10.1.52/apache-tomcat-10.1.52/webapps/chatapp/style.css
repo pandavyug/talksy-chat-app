@@ -248,7 +248,7 @@ label:active {
 /* Layout: header across the top, sidebar on the left, chat area in the middle, input bar at the bottom */
 #chatContainer {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 350px 1fr;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "header header"
@@ -295,6 +295,37 @@ label:active {
 
 #chatContainer .search::placeholder {
   color: rgba(255, 255, 255, 0.72);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 14px;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.user:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.35);
+}
+.user img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* margin-bottom: 20px; */
+}
+.user span{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
 }
 
 #chatContainer .chat-list {

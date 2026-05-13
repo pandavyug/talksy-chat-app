@@ -237,7 +237,6 @@ function sendMessage() {
 }
 
 function selectUser(user) {
-
   selectedUser = user;
 
   console.log("Chatting with:", selectedUser);
@@ -248,39 +247,64 @@ function selectUser(user) {
   if (messagesBox) {
     messagesBox.innerHTML = "";
   }
-
 }
 
-
 function loadUsers() {
-
   fetch("getUsers")
-    .then(res => res.text())
-    .then(data => {
-
+    .then((res) => res.text())
+    .then((data) => {
       const users = data.trim().split("\n");
 
       const userList = document.getElementById("userList");
 
       userList.innerHTML = ""; // clear old
 
-      users.forEach(user => {
+      // users.forEach(user => {
 
-        // skip yourself
-        if (user === username) return;
+      //   // skip yourself
+      //   if (user === username) return;
+
+      //   const div = document.createElement("div");
+
+      //   div.classList.add("user");
+      //   div.textContent = user;
+
+      //   div.onclick = function () {
+      //     selectUser(user);
+      //   };
+
+      //   userList.appendChild(div);
+      // });
+      users.forEach((user) => {
+        const parts = user.split("|");
+        const name = parts[0];
+        const image = parts[1];
+
+        if (name === username) return;
 
         const div = document.createElement("div");
-
         div.classList.add("user");
-        div.textContent = user;
 
-        div.onclick = function () {
-          selectUser(user);
-        };
+        // ❌ IMPORTANT: remove this line if exists
+        // div.textContent = user;
+
+        const img = document.createElement("img");
+        // img.src = image;
+        img.src = "/chatapp/Assets/" + image;
+        img.alt = "avatar";
+
+        const span = document.createElement("span");
+        // span.textContent = name;
+
+        span.textContent = " " + name; // 👈 add space before name
+
+        div.appendChild(img);
+        div.appendChild(span);
+
+        div.onclick = () => selectUser(name);
 
         userList.appendChild(div);
       });
-
     })
-    .catch(err => console.log(err));
+    .catch((err) => console.log(err));
 }

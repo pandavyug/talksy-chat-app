@@ -1,7 +1,6 @@
 //this servlet is for get all users in the database.
 // to show on the chat page when user want to start a new chat
 
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
@@ -35,13 +34,20 @@ public class GetUsersServlet extends HttpServlet {
             Connection con = DriverManager.getConnection(URL, USER, PASSWORD);
 
             // change table name if needed
-            String query = "SELECT username FROM users";
+            // String query = "SELECT username FROM users";
+            String query = "SELECT username, avatar FROM users";
 
             PreparedStatement ps = con.prepareStatement(query);
             ResultSet rs = ps.executeQuery();
 
+            // while (rs.next()) {
+            //     out.println(rs.getString("username"));
+            // }
             while (rs.next()) {
-                out.println(rs.getString("username"));
+                String username = rs.getString("username");
+                String image = rs.getString("avatar");
+
+                out.println(username + "|" + image);
             }
 
             con.close();

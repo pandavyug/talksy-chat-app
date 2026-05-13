@@ -144,53 +144,167 @@ label:active {
 
 /* css for the chat interface */
 
-
 .container {
   display: flex;
   height: 100vh;
   width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 /* Sidebar */
 
 .sidebar {
-  width: 25%;
-  background: #6367ff;
+  width: 28%;
+  background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
   color: white;
-  padding: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .sidebar h2 {
-  margin-bottom: 15px;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  margin: 0;
+  padding: 25px 20px;
+  font-size: 1.6rem;
+  font-weight: 600;
   color: white;
+  background: linear-gradient(180deg, #0f3460 0%, #16213e 100%);
+  border-bottom: 2px solid rgba(102, 126, 234, 0.2);
+  letter-spacing: 0.5px;
 }
 
 .search {
   width: 100%;
-  padding: 5px;
+  padding: 12px 20px;
   border: none;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  border-radius: 0;
+  margin: 0;
+  background: #0f3460;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.1);
+}
+
+.search:focus {
+  outline: none;
+  background: #16213e;
+  border-bottom: 2px solid #667eea;
+  box-shadow: inset 0 0 10px rgba(102, 126, 234, 0.1);
+}
+
+.search::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.chat-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 5px 0;
+}
+
+.chat-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-list::-webkit-scrollbar-track {
+  background: #0f3460;
+}
+
+.chat-list::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 3px;
+}
+
+.chat-list::-webkit-scrollbar-thumb:hover {
+  background: #764ba2;
 }
 
 .chat {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px;
-  border-radius: 8px;
+  gap: 14px;
+  padding: 14px 16px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.chat::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(180deg, #667eea, #764ba2);
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
 }
 
 .chat:hover {
-  background: #8494ff;
+  background: rgba(102, 126, 234, 0.1);
+  padding-left: 18px;
+}
+
+.chat:hover::before {
+  transform: scaleY(1);
+}
+
+.chat:active {
+  background: rgba(102, 126, 234, 0.2);
 }
 
 .chat img {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease;
+}
+
+.chat:hover img {
+  border-color: #667eea;
+  box-shadow: 0 5px 12px rgba(102, 126, 234, 0.35);
+  transform: scale(1.05);
+}
+
+.chat > div {
+  flex: 1;
+  min-width: 0;
+}
+
+.chat h4 {
+  margin: 0 0 4px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.chat:hover h4 {
+  color: #667eea;
+}
+
+.chat p {
+  margin: 0;
+  font-size: 13px;
+  color: #aaa;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+}
+
+.chat:hover p {
+  color: #bbb;
 }
 
 /* Chat Area */
@@ -199,7 +313,7 @@ label:active {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background: #c9beff;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 /* Header */
@@ -207,102 +321,166 @@ label:active {
 .chat-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px;
-  background: #8494ff;
+  gap: 15px;
+  padding: 16px 25px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .chat-header img {
   border-radius: 50%;
-  height: 100%;
-  width: 5%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.chat-header img:hover {
+  border-color: white;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.08);
+}
+
+.chat-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 0.3px;
 }
 
 /* Messages */
 
 .messages {
   flex: 1;
-  padding: 15px;
+  padding: 25px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+  overflow-y: auto;
+}
+
+.messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background: rgba(102, 126, 234, 0.5);
+  border-radius: 10px;
+}
+
+.messages::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 126, 234, 0.8);
 }
 
 .msg {
-  padding: 5px 15px;
-  max-width: 250px;
-  border-radius: 10px;
+  padding: 12px 18px;
+  max-width: 65%;
+  border-radius: 18px;
+  word-wrap: break-word;
+  animation: slideIn 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .other {
   background: white;
-  color: #8494ff ;
+  color: #333;
+  align-self: flex-start;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
 }
 
 .me {
-  background: #6367ff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   align-self: flex-end;
+  border-bottom-right-radius: 4px;
+  font-weight: 500;
 }
 
 /* Input */
 
 .input-area {
   display: flex;
-  padding: 10px;
-  background: #8494ff;
-  gap: 10px;
+  padding: 20px 28px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  gap: 14px;
+  box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.15);
 }
 
 .input-area input {
   flex: 1;
-  padding: 10px;
-  border: 2px solid #7a1ecb;
-  border-radius: 10px;
+  padding: 14px 20px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.92);
+  color: #333;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
 }
 
+.input-area input:focus {
+  outline: none;
+  border-color: white;
+  background: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+.input-area input::placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-weight: 400;
+}
 .input-area button {
-  border: none;
-  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 28px;
   cursor: pointer;
-  font-weight: 800;
-  transition: 0.3s;
-  padding: 10px 30px;
-  border: 2px solid #7a1ecb;
-  border-radius: 10px;
-  cursor: pointer;
-
-  /* Make the button text match the H1 gradient without changing the button’s background */
-  color: transparent;
-  background-image:
-    linear-gradient(95deg, #f5f6f8, #d1b2ed),
-    linear-gradient(135deg, #6367ff, #8494ff);
-  -webkit-background-clip: text, border-box;
-  background-clip: text, border-box;
-  -webkit-text-fill-color: transparent;
-
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(99, 103, 255, 0.4);
+  font-weight: 700;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 14px 36px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
 }
 
 .input-area button:hover {
-  /* background: #c9beff;
-  color: black; */
+  background: white;
+  color: #667eea;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
 
-
-   /* background:#3b82f6; */
-  transition: 0.3s;
-
-  /* Keep the text gradient effect while updating the button background */
-  color: transparent;
-  background-image:
-    linear-gradient(95deg, #3a77e2, #650eb2),
-    linear-gradient(135deg, #8494ff, #c9beff);
-  -webkit-background-clip: text, border-box;
-  background-clip: text, border-box;
-  -webkit-text-fill-color: transparent;
-
-  transform: translateX(3px);
-  box-shadow: 0 8px 20px rgba(99, 103, 255, 0.6);
+.input-area button:active {
+  transform: translateY(-1px);
 }

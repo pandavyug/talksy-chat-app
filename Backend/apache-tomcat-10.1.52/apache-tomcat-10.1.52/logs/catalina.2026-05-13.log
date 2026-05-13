@@ -1,0 +1,169 @@
+13-May-2026 12:37:31.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+13-May-2026 12:37:31.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+13-May-2026 12:37:31.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+13-May-2026 12:37:31.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-May-2026 12:37:31.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-May-2026 12:37:31.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-May-2026 12:37:31.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+13-May-2026 12:37:31.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+13-May-2026 12:37:31.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-May-2026 12:37:31.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 12:37:31.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 12:37:31.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\conf\logging.properties
+13-May-2026 12:37:31.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-May-2026 12:37:31.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-May-2026 12:37:31.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-May-2026 12:37:31.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+13-May-2026 12:37:31.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-May-2026 12:37:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+13-May-2026 12:37:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-May-2026 12:37:31.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-May-2026 12:37:31.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-May-2026 12:37:31.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-May-2026 12:37:31.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 12:37:31.775 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 12:37:31.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\temp
+13-May-2026 12:37:31.806 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-25.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-25.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Local\Programs\Antigravity\bin;C:\Users\HP\AppData\Roaming\npm;.]
+13-May-2026 12:37:32.592 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-May-2026 12:37:32.667 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1597] milliseconds
+13-May-2026 12:37:32.776 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-May-2026 12:37:32.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+13-May-2026 12:37:32.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\chatapp]
+13-May-2026 12:37:34.653 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 12:37:34.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\chatapp] has finished in [2,092] ms
+13-May-2026 12:37:34.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\docs]
+13-May-2026 12:37:35.724 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 12:37:35.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\docs] has finished in [832] ms
+13-May-2026 12:37:35.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\examples]
+13-May-2026 12:37:38.284 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 12:37:38.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\examples] has finished in [2,775] ms
+13-May-2026 12:37:38.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\host-manager]
+13-May-2026 12:37:39.842 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 12:37:39.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\host-manager] has finished in [1,367] ms
+13-May-2026 12:37:39.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\manager]
+13-May-2026 12:37:41.086 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 12:37:41.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\manager] has finished in [1,220] ms
+13-May-2026 12:37:41.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\ROOT]
+13-May-2026 12:37:42.162 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 12:37:42.174 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\ROOT] has finished in [1,073] ms
+13-May-2026 12:37:42.185 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-May-2026 12:37:42.283 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9611] milliseconds
+13-May-2026 12:44:39.792 SEVERE [http-nio-8080-exec-9] org.apache.tomcat.websocket.pojo.PojoEndpointBase.onError No error handling configured for [ChatServer] and the following error occurred
+	java.io.IOException: java.net.SocketTimeoutException
+		at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlockInternal(WsRemoteEndpointImplBase.java:326)
+		at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:266)
+		at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:777)
+		at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:625)
+		at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:349)
+		at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:281)
+		at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:129)
+		at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:85)
+		at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:184)
+		at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:164)
+		at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:152)
+		at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:57)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1474)
+	Caused by: java.net.SocketTimeoutException
+		at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer$1.completed(WsRemoteEndpointImplServer.java:180)
+		at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer$1.completed(WsRemoteEndpointImplServer.java:174)
+		at org.apache.tomcat.util.net.SocketWrapperBase$VectoredIOCompletionHandler.completed(SocketWrapperBase.java:1056)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper$NioOperationState.run(NioEndpoint.java:1693)
+		at org.apache.tomcat.util.net.SocketWrapperBase$OperationState.start(SocketWrapperBase.java:1003)
+		at org.apache.tomcat.util.net.SocketWrapperBase.vectoredOperation(SocketWrapperBase.java:1374)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:1303)
+		at org.apache.tomcat.util.net.SocketWrapperBase.write(SocketWrapperBase.java:1278)
+		at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:173)
+		at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:521)
+		at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlockInternal(WsRemoteEndpointImplBase.java:313)
+		... 19 more
+13-May-2026 13:07:43.550 SEVERE [http-nio-8080-exec-10] org.apache.tomcat.websocket.pojo.PojoEndpointBase.onError No error handling configured for [ChatServer] and the following error occurred
+	java.io.EOFException
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1334)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1218)
+		at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:74)
+		at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:184)
+		at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:164)
+		at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:152)
+		at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:57)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1474)
+13-May-2026 13:46:31.651 SEVERE [http-nio-8080-exec-2] org.apache.tomcat.websocket.pojo.PojoEndpointBase.onError No error handling configured for [ChatServer] and the following error occurred
+	java.io.EOFException
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1334)
+		at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1218)
+		at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:74)
+		at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:184)
+		at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:164)
+		at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:152)
+		at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:57)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1474)
+13-May-2026 15:12:13.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+13-May-2026 15:12:13.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+13-May-2026 15:12:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+13-May-2026 15:12:13.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+13-May-2026 15:12:13.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-May-2026 15:12:13.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-May-2026 15:12:13.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-25.0.2
+13-May-2026 15:12:13.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           25.0.2+10-LTS-69
+13-May-2026 15:12:13.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-May-2026 15:12:13.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 15:12:13.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 15:12:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\conf\logging.properties
+13-May-2026 15:12:13.508 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-May-2026 15:12:13.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-May-2026 15:12:13.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-May-2026 15:12:13.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+13-May-2026 15:12:13.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-May-2026 15:12:13.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+13-May-2026 15:12:13.511 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-May-2026 15:12:13.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-May-2026 15:12:13.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-May-2026 15:12:13.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-May-2026 15:12:13.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 15:12:13.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52
+13-May-2026 15:12:13.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\temp
+13-May-2026 15:12:13.541 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-25.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-25.0.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Local\Programs\Antigravity\bin;C:\Users\HP\AppData\Roaming\npm;.]
+13-May-2026 15:12:14.480 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-May-2026 15:12:14.565 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1730] milliseconds
+13-May-2026 15:12:14.701 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-May-2026 15:12:14.703 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+13-May-2026 15:12:14.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\chatapp]
+13-May-2026 15:12:17.385 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 15:12:17.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\chatapp] has finished in [2,988] ms
+13-May-2026 15:12:17.732 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\docs]
+13-May-2026 15:12:19.941 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 15:12:19.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\docs] has finished in [2,253] ms
+13-May-2026 15:12:20.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\examples]
+13-May-2026 15:12:24.460 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 15:12:24.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\examples] has finished in [4,754] ms
+13-May-2026 15:12:24.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\host-manager]
+13-May-2026 15:12:26.069 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 15:12:26.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\host-manager] has finished in [1,495] ms
+13-May-2026 15:12:26.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\manager]
+13-May-2026 15:12:28.039 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 15:12:28.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\manager] has finished in [1,796] ms
+13-May-2026 15:12:28.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\ROOT]
+13-May-2026 15:12:29.199 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2026 15:12:29.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\Website-projects\Talksy-chat-app\Backend\apache-tomcat-10.1.52\apache-tomcat-10.1.52\webapps\ROOT] has finished in [1,156] ms
+13-May-2026 15:12:29.225 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-May-2026 15:12:29.346 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14777] milliseconds
